@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Simple mirror shell scripts    
+# author: @zhonger
+# date: 2017-11-24
+# contact:(zhonger@live.cn)
+
+PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
+export PATH
+
+
+# base rsync task function
+function brsync(){
+    
+}
