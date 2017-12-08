@@ -1,3 +1,6 @@
+sudo mount -t nfs 172.22.107.35:/home/data/nfs /home/mirror/nfs
+sudo mount -t nfs 172.22.107.54:/home/data  /home/mirror/nfs2
+
 cd /var/www/ftp
 
 sudo mount --bind /home/mirror/rsync/apache/ apache/
